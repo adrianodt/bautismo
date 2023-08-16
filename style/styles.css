@@ -99,6 +99,22 @@ main .asistencia {
     padding: 20px 30px;
 }
 
+.conteo {
+    padding: 20px 20px;
+}
+.conteo #demo {
+    font-family: 'Courgette', cursive;
+    font-size: 30px;
+}
+
+.conteo #tituloconteo {
+    
+    font-family: 'Courgette', cursive;
+    font-size: 24px;
+}
+
+
+
 footer {
     text-align: center;
 }
