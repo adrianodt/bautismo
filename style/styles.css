@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courgette&family=Montserrat&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgb(175, 167, 178);
+    background: linear-gradient(
+        0deg,
+        rgba(175, 167, 178, 1) 0%,
+        rgba(210, 190, 191, 1) 100%
+    );
+}
+
+
+.container-1 {
+    margin: 0px auto;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 320px;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.card-container {
+    
+    background-image: url('/img/pink.jpg');
+    margin: 0px auto;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 320px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+header {
+    height: 310px;
+}
+
+
+header img {
+    padding: 40px 0px ;
+    width: 90%;
+}
+
+main .data {
+    font-family: "Montserrat", sans-serif;
+    color: #213341;
+    font-size: 30px;
+    padding-top: 65px;
+}
+
+main .data-fecha {
+    background-color: #f5e7e4;
+    font-family: 'Courgette', cursive;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 20px;
+    align-items: center;
+    
+}
+
+main #dia, #hora2 {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;    
+} 
+
+main #fecha, #hora {
+    font-size: 44px;
+}
+
+main .data-lugar1,
+.data-lugar2 {
+   
+    font-size: 18px;
+    padding-top: 40px;
+    line-height: 15px;
+}
+
+.data-lugar1 img, .data-lugar2 img{
+    margin-bottom: 15px;
+
+}
+
+main img {
+    height: 50px;
+}
+
+main .asistencia {
+    display: flex;
+    flex-direction: column;
+    color: #213341;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #f5e7e4;
+    padding: 20px 30px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    font-family: "Montserrat", sans-serif;
+    color: #272727;
+    margin-top: 10px;
+}
